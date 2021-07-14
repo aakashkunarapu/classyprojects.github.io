@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+       *{
+           margin: 0;
+           padding: 0;
+       }
+       .header{
+           background-image: url(table.jpg );
+           height: 100vh;
+           background-size: cover;
+           background-position: center;
+           position: relative;
+       }
+       .main-nav{
+           float: right;
+           list-style: none;
+           margin-top: 30px;
+       }
+      .main-nav li{
+        
+              display: inline-block;
+      }
+      .main-nav li a{
+        font-family: 'Courier New', Courier, monospace;
+               color: white;
+               text-decoration: none;
+               padding: 6px 20px;
+               font-family: tahoma;
+               font-size: 15px;
+              
+      }
+      .main-nav li.active a{
+          border:   1px solid white;
+      }
+      .main-nav li a:hover{
+           border: 1px solid white;
+           transition: 0.5s;
+      }
+     
+      .logo img{
+            width: 100px;
+            height: auto;
+            float: left;
+      }
+      body{
+          font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+      }
+      .row{
+          width: 1300px;
+          margin: auto;
+      }
+      .hero{
+             
+             position: absolute;
+             width: 1300px;
+             padding: 0%;
+             height: 0px;
+           } 
+      h1{
+          color: white;
+          text-transform: uppercase;
+          font-size: 70px;
+          text-align: center;
+          margin-top: 270px;
+          width: 1350px; 
+          position: relative;
+      }
+      .button{
+          margin-top: 30px;
+          margin-left: 530px;
+      }
+      .btn{
+            border: 1px solid white;
+            padding: 10px 30px;
+            color: white;
+            text-decoration: none;
+            margin-right: 5px;
+            font-size: 13px;
+            text-transform: uppercase;
+            
+      }
+      .btn-one{
+           
+             font-family: tahoma;
+      }
+      .btn-one:hover{
+        background-color:darkorange;
+        transition: all 0.5s ease-in;
+      }
+      .btn-two:hover{
+        background-color: darkorange;
+        transition: all 0.5s ease-out;
+      }
+    
+
+    </style>
+    <head>
+    
+    </head>
+    <body>
+       <section class="header">
+         <div class="row">
+             <div class="logo">
+                 <img src="logo (2).png" alt="logo">
+             </div>
+             <ul class="main-nav">
+                 <li class="active"><a href="">HOME</a></li>  
+                 <li><a href="">SERVICES</a></li> 
+                 <li><a href="about3.html">ABOUT</a></li> 
+                 <li><a href="">CONTACT</a></li> 
+                 <li><a href="">NEWS</a></li> 
+                 <li><a href="">FAQ</a></li> 
+             </ul>
+         </div>
+         <div class="hero">
+             <h1>classy projects</h1>
+               <div class="button">
+                   <a href=""class="btn btn-one">Give Details</a>
+                   <a href=""class="btn btn-two">Explore More</a>
+               </div>
+         </div>
+        <!------ ---->
+    </section> 
+  
+    </body>
+</html>
